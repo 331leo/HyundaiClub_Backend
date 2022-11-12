@@ -12,9 +12,9 @@ load_dotenv()
 
 cors_origins = json.loads(os.getenv("origins", '["*"]'))
 app_config = {
-    "title": "FastAPI Template",
-    "description": "FastAPI Template [GitHub](https://github.com/331leo/FastAPI_Template)",
-    "version": "0.0.1",
+    "title": "HyundaiClub Backend",
+    "description": "HyundaiClub - Hyundai Senior High School Club Management System [GitHub](https://github.com/331leo/HyundaiClub_Backend)",
+    "version": os.environ.get("VERSION", "0.0.0"),
     "redoc_url": "/docs/redoc",
     "docs_url": "/docs/swagger",
 }
