@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "FastAPI_Template"
+name = "HyundaiClub_Backend"
 version = "0.1.0"
-description = "FastAPI Template"
+description = "HyundaiClub Backend API"
 authors = ["Leo Kim <me@leok.kr>"]
 license = "MIT"
 
